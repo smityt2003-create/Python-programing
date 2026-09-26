@@ -1,0 +1,20 @@
+sub1 = int(input("Enter marks for Office Automation: "))
+
+sub2= int(input("Enter marks for Communication Skills: "))
+
+sub3 = int(input("Enter marks for dbms: "))
+
+sub4 = int(input("Enter marks for Networking: "))
+
+sub5 = int(input("Enter marks for Programming: "))
+
+sub6 = int(input("Enter marks for Netwon Essentials: "))
+
+sub7 = int(input("Enter marks for IT Security: "))
+
+
+total_marks = sub1 + sub2 + sub3 + sub4 + sub5 + sub6 + sub7
+average_marks = total_marks / 7
+
+print("Total Marks:", total_marks)
+print("percentage Marks:", average_marks)
